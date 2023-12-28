@@ -1,0 +1,27 @@
+.container {
+  @apply overflow-x-scroll
+}
+
+.sweetAlertGrid {
+  @apply grid grid-cols-[auto,auto] gap-1 w-max mx-auto
+}
+
+.sweetAlertGrid > *:nth-child(odd) {
+  @apply text-right font-bold
+}
+
+.sweetAlertGrid > *:nth-child(even) {
+  @apply text-left
+}
+
+.sweetAlertTable {
+  @apply table
+}
+
+.sweetAlertTable tbody tr {
+  @apply hover:cursor-pointer hover:bg-base-300
+}
+
+.downloadButton {
+  @apply btn btn-outline block ml-auto btn-xs
+}

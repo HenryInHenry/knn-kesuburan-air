@@ -1,0 +1,15 @@
+.loadingContainer {
+  @apply w-screen h-[60vh] flex justify-center content-center
+}
+
+.shuffleButton {
+  @apply btn btn-primary
+}
+
+.subTitle {
+  @apply text-center font-bold underline capitalize
+}
+
+.container {
+  @apply flex flex-col gap-8
+}

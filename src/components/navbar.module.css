@@ -1,0 +1,7 @@
+.container {
+  @apply navbar shadow-md gap-1
+}
+
+.title {
+  @apply text-xl font-black hover:text-neutral-500 active:text-lg transition-all duration-100
+}

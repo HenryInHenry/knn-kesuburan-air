@@ -1,0 +1,69 @@
+{
+  "name": "KNN Water Fertilty",
+  "short_name": "KNN Water Fertilty",
+  "theme_color": "#5663f5",
+  "background_color": "#E5E7EB",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "'KNN Water Fertility' is a K-Nearest Neighbors (KNN) analysis method that utilizes chlorophyll-a and phosphate parameters to assess the cleanliness and nutrient richness in a water source by identifying patterns and characteristics of its nearest neighbors.",
+  "scope": "/",
+  "start_url": "/",
+  "screenshots": [
+    {
+      "src": "images/mobile.png",
+      "sizes": "850x1158",
+      "type": "image/jpg",
+      "form_factor": "narrow",
+      "label": "'KNN Water Fertility' is a K-Nearest Neighbors (KNN) analysis method that utilizes chlorophyll-a and phosphate parameters to assess the cleanliness and nutrient richness in a water source by identifying patterns and characteristics of its nearest neighbors."
+    },
+    {
+      "src": "images/wide.png",
+      "sizes": "2880x1654",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "'KNN Water Fertility' is a K-Nearest Neighbors (KNN) analysis method that utilizes chlorophyll-a and phosphate parameters to assess the cleanliness and nutrient richness in a water source by identifying patterns and characteristics of its nearest neighbors."
+    }
+  ],
+  "icons": [
+    {
+      "src": "images/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
