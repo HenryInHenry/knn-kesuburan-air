@@ -1,0 +1,39 @@
+.testButton {
+  @apply btn btn-primary
+}
+
+.confusionMatrix {
+  @apply grid sm:grid-rows-4 grid-flow-row sm:grid-flow-col gap-1
+}
+
+.confusionMatrix > * {
+  @apply border border-gray-400 p-3
+}
+
+.kForm {
+  @apply flex items-center flex-col sm:flex-row gap-3 sm:gap-0
+}
+
+.inputK {
+  @apply input w-full input-bordered sm:max-w-sm min-w-max
+}
+
+.btnSubmit {
+  @apply btn btn-success
+}
+
+.btnPick {
+  @apply btn btn-square btn-secondary items-center w-full sm:w-11
+}
+
+.title {
+  @apply font-bold text-xl
+}
+
+.btnChoose {
+  @apply btn btn-primary w-full
+}
+
+.btnClear {
+  @apply btn btn-square btn-error
+}

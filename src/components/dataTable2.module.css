@@ -1,0 +1,51 @@
+.container {
+  @apply overscroll-x-auto
+}
+
+.headerCell {
+  @apply !text-base-content !font-black hover:!bg-base-200
+}
+
+.headerCell > div {
+  @apply flex justify-between
+}
+
+.btnSort {
+  @apply bg-base-100
+}
+
+.row {
+  @apply hover:!bg-base-200
+}
+
+.paginateButton {
+  @apply btn btn-square btn-ghost hidden sm:flex
+}
+
+.paginateContainer {
+  @apply flex justify-end
+}
+
+.paginateContainer {
+  @apply flex justify-end pt-3
+}
+
+.paginateController {
+  @apply content-center dark:bg-base-200
+}
+
+.paginateButtonFiller {
+  @apply btn btn-square btn-ghost
+}
+
+.paginateSelect {
+  @apply select select-bordered w-full max-w-xs sm:hidden
+}
+
+.cell [type='checkbox'], .headerCell [type='checkbox'] {
+  @apply checked:!bg-[url("/images/check-light.svg")] dark:checked:!bg-[url("/images/check-dark.svg")] indeterminate:!bg-[url("/images/indeterminate-light.svg")] dark:indeterminate:!bg-[url("/images/indeterminate-dark.svg")]
+}
+
+.loading {
+  @apply col-span-full text-center gap-3
+}

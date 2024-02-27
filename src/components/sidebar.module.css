@@ -1,0 +1,15 @@
+.container {
+  @apply drawer w-max z-50
+}
+
+.drawerButton {
+  @apply btn btn-square btn-ghost drawer-button
+}
+
+.menuList {
+  @apply menu p-4 w-80 min-h-full bg-base-200 text-base-content
+}
+
+.drawerButtonClose {
+  @apply ml-auto btn btn-square btn-ghost drawer-button flex justify-center content-center
+}

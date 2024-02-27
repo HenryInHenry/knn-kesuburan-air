@@ -1,0 +1,7 @@
+.container {
+  @apply fixed bottom-3 right-3 btn btn-square rounded-full btn-primary z-[9999]
+}
+
+.popup {
+  @apply !bg-base-100 !text-base-content
+}

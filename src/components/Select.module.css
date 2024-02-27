@@ -1,0 +1,15 @@
+.error {
+  @apply text-sm text-red-600 dark:text-red-400 text-start
+}
+
+.container {
+  @apply flex flex-col justify-end relative
+}
+
+.required {
+  @apply after:content-['*'] after:text-red-600 after:ml-1
+}
+
+.labelContainer {
+  @apply absolute left-3 -top-2.5 z-10 bg-base-100 text-sm
+}
