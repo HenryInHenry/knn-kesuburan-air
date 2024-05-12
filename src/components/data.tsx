@@ -367,6 +367,14 @@ const Data = () => {
         popup: styles.popup
       },
     }).then((result) => {
+      if (process.env.NEXT_PUBLIC_APP_ENV === 'production') {
+        // inform user if delete action is disabled
+        ReactSwal.fire({
+          ...SweetalertParams.error,
+          title: 'Error',
+          text: 'Delete action is disabled in production',
+        })
+      }
       if (result.isConfirmed) {
         deleteData({ ids })
       }
